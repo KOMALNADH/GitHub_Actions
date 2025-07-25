@@ -1,0 +1,10 @@
+name: test workflow
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print
+        run: eco 'Hello Komal'
