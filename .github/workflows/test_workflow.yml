@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print
-        run: eco 'Hello Komal'
+        run: echo 'Hello Komal'
